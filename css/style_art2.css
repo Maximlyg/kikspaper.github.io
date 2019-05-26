@@ -1,77 +1,89 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 body {
     width: auto;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 section.module:last-child {
     margin-bottom: 0;
 }
+
 section.module h2 {
-  margin-bottom: 40px;
-  font-size: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
 }
+
 .logo {
     width: 65px;
     height: auto;
 }
+
 nav {
     height: 70px;
 }
+
 section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
 }
+
 section.module p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 section.module.content {
-  padding: 40px;
+    padding: 40px;
 }
+
 section.module.parallax {
-  height: 950px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    height: 950px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 3em;
-  line-height: 200px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 3em;
+    line-height: 200px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 section.module.parallax-1 {
-  background-image: url("img/bg1.jpg");
+    background-image: url("img/bg1.jpg");
     background-position: center;
-        display: flex;
+    display: flex;
     align-items: center;
 }
 
- @media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 20px;
-  }
+@media all and (min-width: 600px) {
+    section.module h2 {
+        font-size: 42px;
+    }
+
+    section.module p {
+        font-size: 20px;
+    }
+
+    section.module.parallax h1 {
+        font-size: 20px;
+    }
 }
 
 @media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 120px;
-  }
+    section.module.parallax h1 {
+        font-size: 120px;
+    }
 }
 
 .tmr {
@@ -80,7 +92,7 @@ section.module.parallax-1 {
 
 .article > h4 {
     margin-top: 25px;
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
 }
 
 .btn-outline-dark {
@@ -91,9 +103,11 @@ section.module.parallax-1 {
     background-color: rgba(173, 216, 230, 0.4);
     transition: all 0.3s linear;
 }
+
 nav:hover {
-    background-color: rgba(70,130,180, 1);
+    background-color: rgba(70, 130, 180, 1);
 }
+
 .article {
     display: flex;
     justify-content: center;
@@ -103,11 +117,13 @@ nav:hover {
     margin-top: 20px;
     flex-direction: column;
 }
+
 .art1 {
     font-size: 28px;
     color: rgba(100, 100, 100, 0.9);
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 .article > p {
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
@@ -120,6 +136,7 @@ main > img {
     height: auto;
     width: 800px;
 }
+
 .carousel {
     width: 800px;
     height: auto;
@@ -165,6 +182,7 @@ main > img {
     text-decoration: none;
     color: lightslategrey;
 }
+
 .ssylka2 {
     color: #aaadef;
     transition: all 0.3s linear;
@@ -174,9 +192,19 @@ main > img {
     text-decoration: none;
     color: lightslategrey;
 }
+
 ul {
     list-style-type: none;
 }
-.container_my > a  > img {
+
+.container_my > a > img {
     margin-top: -10px;
+}
+
+.rot {
+    transition: all 0.3s linear;
+}
+
+.container_my > a > .rot:hover {
+    transform: rotate(45deg);
 }

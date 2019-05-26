@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    width: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+    width: 65px;
+    height: auto;
+}
+nav {
+    height: 70px;
+}
+section.module:last-child {
+    margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px;
+}
+section.module.parallax {
+  height: 950px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3em;
+  line-height: 300px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+  background-image: url("img/bred.jpg");
+    background-position: center;
+        display: flex;
+    align-items: center;
+}
+
+ @media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+.tmr {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.btn-outline-dark {
+    background-color: rgb(128, 60, 30);
+}
+
+.bg-primary-my {
+    background-color: rgba(173, 216, 230, 0.4);
+    transition: all 0.3s linear;
+}
+nav:hover {
+    background-color: rgba(70,130,180, 1);
+}
+.article {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.art1 {
+    font-size: 28px;
+    color: rgba(100, 100, 100, 0.9);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.article > p {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.article >img {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.carousel {
+    width: 800px;
+    height: auto;
+}
+
+.carousel-item {
+    width: 800px;
+}
+
+.marg_h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container_my {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.foo {
+    font-size: 15px;
+    color: gray;
+}
+
+.ssylka {
+    color: #c0c0c0;
+    transition: all 0.3s linear;
+}
+
+.ssylka:hover {
+    text-decoration: none;
+    color: lightslategrey;
+}
+.ssylka2 {
+    color: #aaadef;
+    transition: all 0.3s linear;
+}
+
+.ssylka2:hover {
+    text-decoration: none;
+    color: lightslategrey;
+}
+.container_my > a > img{
+    margin-top: -30px;
+}
